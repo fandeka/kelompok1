@@ -1,0 +1,6 @@
+
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^1tni\.mabes\.online$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.1tni\.mabes\.online$
+RewriteRule ^/?$ "http\:\/\/mabes\.online" [R=301,L]
+
